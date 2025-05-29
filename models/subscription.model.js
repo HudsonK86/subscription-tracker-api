@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const userSchema = new mongoose.Schema({
+const subsriptionSchema = new mongoose.Schema({
     name: {
         type: String,
         required: [true, 'Subscription name is required'],
@@ -11,7 +11,7 @@ const userSchema = new mongoose.Schema({
     price: {
         type: Number,
         required: [true, 'Subscription price is required'],
-        min: [0, 'Price cannot be negative'],
+        min: [0, 'Price must be greater than 0'],
     },
     currency: {
         type: String,
@@ -65,15 +65,15 @@ const userSchema = new mongoose.Schema({
 // Auto-calculate renewal data if missing
 subsriptionSchema.pre('save', function(next) {
     if (!this.renewalDate) {
-        const renewalDate = {
+        const renewalPeriods = {
             daily: 1,
             weekly: 7,
             monthly: 30,
-            yearly: 365
+            yearly: 365,
         };
 
         this.renewalDate = new Date(this.startDate);
-        this.renewalDate.setDate(this.renewalDate.getDate() + renewalDate[this.frequency]);
+        this.renewalDate.setDate(this.renewalDate.getDate() + renewalPeriods[this.frequency]);
     }
 
     // Auto-update the status if renewal date has passed
@@ -83,3 +83,7 @@ subsriptionSchema.pre('save', function(next) {
 
     next();
 });
+
+const Subscription = mongoose.model('Subscription', subsriptionSchema);
+
+export default Subscription;
