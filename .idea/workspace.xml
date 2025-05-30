@@ -4,27 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="faa84ad1-17e7-44ab-8018-7b990f63dd79" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/config/arcjet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/nodemailer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/upstash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/subscription.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/workflow.controller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/arcjet.middleware.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/workflow.route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/email-template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/send-email.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.development.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.development.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.production.local" beforeDir="false" afterPath="$PROJECT_DIR$/.env.production.local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/env.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/subscription.model.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/subscription.model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/subscription.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/subscription.route.js" afterDir="false" />
-    </list>
+    <list default="true" id="faa84ad1-17e7-44ab-8018-7b990f63dd79" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +46,7 @@
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "/Users/hudsonnguyen/Desktop/subscription-tracker-api-node-express/node_modules/eslint",
+    "node.js.selected.package.eslint": "\\Users\\hudsonnguyen\\Desktop\\subscription-tracker-api-node-express\\node_modules\\eslint",
     "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
@@ -108,6 +88,7 @@
       <workItem from="1748321228366" duration="17581000" />
       <workItem from="1748357595575" duration="4452000" />
       <workItem from="1748433414058" duration="21598000" />
+      <workItem from="1748520360109" duration="2749000" />
     </task>
     <servers />
   </component>
